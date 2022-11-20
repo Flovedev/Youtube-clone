@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&family=Roboto&display=swap');
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+.main {
+    width: 100%;
+}
+
+.topbar {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    height: 100%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-icon {
+    height: 16vh;
+    display: flex;
+    flex-direction :column;
+    align-items: center;
+    padding: 0 2em;
+    justify-content: flex-start;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.sidebar-icon ion-icon{
+    font-size: 2em;
+}
+.sidebar-icon p {
+    margin: 0;
+}
+
+.logo {
+    height: 50%;
+}
+
+.search-wrapper {
+    display: flex;
+    height: 50%;
+}
+
+.mic-icon {
+    display: flex;
+    align-self: center;
+    font-size: 1.5em;
+    padding: 0 0.2em;
+    cursor: pointer;
+}
+
+.search-btn {
+    display: flex;
+    align-items: center;
+    padding: 0.8em;
+    cursor: pointer;
+}
+
+.right-icons-wrapper {
+    display: flex;
+    cursor: pointer;
+}
+
+.right-icons-wrapper ion-icon {
+    display: flex;
+    align-self: flex-end;
+    font-size: 2em;
+    padding: 0 0.2em;
+}
+
+.search-wrapper input {
+    padding-left: 1em;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 50px 0 0 50px;
+}
+
+.videos {
+    height: 360px;
+    width: 525px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.content-img {
+    height: 300px;
+    width: 525px;
+
+}
+
+.content-logo {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+
+}
+
+.content-text p {
+    margin: 0px;
+}
+
+.content-title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.content-description {
+    font-size: 13px;
+}
